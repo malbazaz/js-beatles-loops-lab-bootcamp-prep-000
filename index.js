@@ -14,5 +14,9 @@ return newarray
 }
 
 function johnLennonFacts(facts){
-  array 
+  var i
+  while(i<facts.length){
+    facts[i]= facts[i]+"!!!"
+  }
+  return facts
 }
