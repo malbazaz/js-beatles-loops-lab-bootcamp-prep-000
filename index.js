@@ -16,10 +16,11 @@ return newarray
 
 function johnLennonFacts(facts){
   var i
+  var newfacts
   while(i<facts.length){
-    facts[i]= facts[i]+"!!!"
+    newfacts[i]= facts[i]+"!!!"
   }
-  return facts
+  return newfacts
 }
 
 function iLoveTheBeatles(numb1){
