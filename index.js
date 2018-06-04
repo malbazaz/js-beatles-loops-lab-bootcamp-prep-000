@@ -1,6 +1,6 @@
 var musicians
 var instruments
-var facts=[]
+var facts
 var numb1
 
 function theBeatlesPlay(musicians,instruments){
