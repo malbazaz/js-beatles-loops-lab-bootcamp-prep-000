@@ -1,6 +1,6 @@
 var musicians
 var instruments
-var facts =[]
+var facts
 
 function theBeatlesPlay(musicians,instruments){
 var newarray=[]
