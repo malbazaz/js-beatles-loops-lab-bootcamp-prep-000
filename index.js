@@ -26,7 +26,7 @@ function iLoveTheBeatles(numb1){
   var newarray=[]
   var i
   do{
-  newarray.push("I love the Beatles")
+  newarray.push("I love the Beatles!")
   numb1++
   }
   while(numb1<15)
