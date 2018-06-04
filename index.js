@@ -3,7 +3,7 @@ var instruments
 var facts
 
 function theBeatlesPlay(musicians,instruments){
-var newarray={}
+var newarray=[]
 var i
 for(i=0;i<musicians.length;i++){
 newarray[i] = `"${musicians} plays ${instruments}"`
