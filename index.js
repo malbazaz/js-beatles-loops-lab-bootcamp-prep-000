@@ -1,6 +1,7 @@
 var musicians
 var instruments
 var facts
+var numb1
 
 function theBeatlesPlay(musicians,instruments){
 var newarray=[]
@@ -19,4 +20,15 @@ function johnLennonFacts(facts){
     facts[i]= facts[i]+"!!!"
   }
   return facts
+}
+
+function iLoveTheBeatles(numb1){
+  var newarray=[]
+  var i
+  do{
+  newarray.push("I love the Beatles")
+  numb1++
+  }
+  while(numb1<15)
+  }
 }
