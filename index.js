@@ -16,8 +16,9 @@ return newarray
 
 function johnLennonFacts(facts){
   var i
+  var mo="!!!"
  while(i<facts.length){
-    facts[i]+="!!!"
+    facts[i]+=mo
   }
   return facts
 }
