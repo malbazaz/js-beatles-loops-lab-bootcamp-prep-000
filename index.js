@@ -30,5 +30,5 @@ function iLoveTheBeatles(numb1){
   numb1++
   }
   while(numb1<15)
-  }
+  return newarray
 }
