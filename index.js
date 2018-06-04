@@ -1,12 +1,18 @@
 var musicians
 var instruments
+var facts
 
 function theBeatlesPlay(musicians,instruments){
 var newarray={}
 var i
-for(i=0;i<newarray.length;i++){
+for(i=0;i<musicians.length;i++){
+newarray[i] = `"${musicians} plays ${instruments}"`
+}
+
+return newarray
   
 }
 
-  
+function johnLennonFacts(facts){
+  array 
 }
