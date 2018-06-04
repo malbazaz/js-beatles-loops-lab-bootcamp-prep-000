@@ -19,6 +19,7 @@ function johnLennonFacts(facts){
   var mo="!!!"
  while(i<facts.length){
     facts[i]+=mo
+    i++
   }
   return facts
 }
